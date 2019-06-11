@@ -1,6 +1,6 @@
 # Tailwind CRAP Preset
 
-A simple starter template for [Create React App](https://github.com/facebook/create-react-app) using [Tailwind CSS](https://tailwindcss.com) build for the [CRAP](https://github.com/GeoffSelby/create-react-app-preset) cli tool.
+A simple starter template for [Create React App](https://github.com/facebook/create-react-app) using [Tailwind CSS](https://tailwindcss.com) built for the [CRAP](https://github.com/GeoffSelby/create-react-app-preset) cli tool.
 
 ## Installation
 
