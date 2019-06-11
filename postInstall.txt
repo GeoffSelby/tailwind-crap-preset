@@ -1,0 +1,8 @@
+Thanks for installing Tailwind CRAP Preset!
+
+If you have any questions, feel free to reach out on Twitter @geoff_selby.
+
+If you come across a bug or issue please submit the issue on GitHub here:
+https://github.com/GeoffSelby/tailwind-crap-preset/issues
+
+Enjoy!
