@@ -1,18 +1,17 @@
 {
   "name": "tailwind-crap-preset",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^5.2.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "build:css": "postcss src/styles/index.css -o src/index.css",
-    "watch:css": "postcss src/styles/index.css -o src/index.css -w",
-    "start": "yarn watch:css & react-scripts start",
-    "build": "yarn build:css && react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -31,8 +30,8 @@
     ]
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
     "autoprefixer": "^9.6.0",
-    "postcss-cli": "^6.1.2",
     "tailwindcss": "^1.0.3"
   }
 }
